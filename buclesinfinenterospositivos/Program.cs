@@ -2,11 +2,17 @@
 
 namespace buclesinfinenterospositivos
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            int num = 1;
+            while(num >=1)
+            {
+                Console.WriteLine(num);
+                num++;
+            }
+            
         }
     }
 }
